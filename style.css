@@ -1,0 +1,141 @@
+* ,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+	border: 20px solid #3082aa;
+	min-height: 100%;
+}
+
+body {
+	background: #399aca;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+
+.weather {
+	width: 60%;
+	margin: 40px auto;
+}
+
+.card-list {
+	width: 100%;
+	list-style-type: none;
+	border: 2px solid #fff;
+	font-size: 0;
+	background: #fff;
+}
+
+.card-item {
+	text-align: center;
+	display: inline-block;
+	border:  2px solid #fff;
+	font-size: 16px;
+	transition: all .2s ease-in;
+}
+
+i {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+i {
+	margin-top: -3px;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+.w-50 {
+	width: 50%
+}
+
+.w-100 {
+	width: 100%
+}
+
+.weather-heading {
+	font-size: 18px;
+	margin: 0 0 16px 0;
+}
+
+.card-item {
+	font-size: 16px;
+	padding: 14px 0 14px 0;
+}
+
+.temperature {
+	padding-top: 8px;
+	opacity: .8;
+	vertical-align: middle;
+}
+
+
+.suggestion {
+	padding-top: 14px;
+}
+
+.color1 {
+	background: #399aca;
+}
+
+.color2 {
+	background: #3ecccb;
+}
+
+.color3 {
+	background: #986798;
+}
+
+.color4 {
+	background: #c0484a;
+}
+
+.color5 {
+	background: #e0674f;
+}
+
+.color6 {
+	background: #fecb6e;
+}
+
+.color7 {
+	background: #9acb9b;
+}
+
+.color8 {
+	background: #689999;
+}
+
+.color9 {
+	background: #ca6899;
+}
+
+.color10 {
+	background: #389867;
+}
+
+.color11 {
+	background: #666797;
+}
+
+/* ul:hover li {
+	opacity: .7;
+	transition: all .1s ease-in;
+}
+
+.card-item:hover {
+	opacity: 1;
+	transition: all .1s ease-in;
+} */
+.card-list:hover li:not(:hover) {
+	opacity: .8;
+}
+
